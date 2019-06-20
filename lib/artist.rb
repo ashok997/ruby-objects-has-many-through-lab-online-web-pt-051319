@@ -17,6 +17,7 @@ class Artist
     Song.new(name, self, genre)
   end
   
+<<<<<<< HEAD
   def songs
     Song.all.select {|song| song.artist == self}
   end 
@@ -24,5 +25,11 @@ class Artist
   def genres
     Song.all.map {|song| song.genre }
   end
+=======
+  #def songs
+  #  Songs.all.select {|song| song.artist == self}
+  #end 
+    
+>>>>>>> 018d1e66c5008ee61d60596ad9dc05ccd91c7310
   
 end
